@@ -120,8 +120,6 @@ const App = () => {
         return data && data.morning !== '' && data.evening !== '';
     };
 
-    const isSelectedDayCompleted = dayData.morning !== '' && dayData.evening !== '';
-
     return (
         <div className="min-h-screen bg-gray-900 text-gray-100 p-4 sm:p-8 flex items-center justify-center font-sans">
             <div className="bg-gray-800 p-4 sm:p-8 rounded-2xl shadow-xl w-full max-w-4xl">
